@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    .kiểu{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    isplay: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    }
+    .kiu{
+    text-align: right;
+    }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=100, initial-scale=1.0">
+        <title>Tờ Khai Y Tế</title>
+    </head>
+    <body style="background-color:lightblue;">
+        <h1 class="kiểu">
+            <strong>THÔNG TIN KHAI BÁO Y TẾ </strong>
+        </h1>
+        <hr>
+        <h2>
+            (PHÒNG CHỐNG DỊCH COVID-19)
+        </h2>
+        <form>
+            <div>
+                <label>Họ và Tên (ghi chữ in hoa):</label>
+                <input input type="text"/>
+            </div>
+            <div>
+                <label>Số hộ chiếu/CMND:</label>
+                <input input type="number"/>
+            </div>
+            <div>
+                <label>Năm sinh:</label>
+                <input input type="number"/>
+            </div>
+            <div>
+                <label>Giới tính:</label>
+                <select>
+                    <option>Nam</option>
+                    <option>Nữ</option>
+                </select>
+            </div>
+            <div>
+                <label>Quốc tịch:</label>
+                <input input type="text"/>
+            </div>
+            <div>
+                <label>Công ty làm việc:</label>
+                <input input type="text"/>
+            </div>
+            <div>
+                <label>Bộ phận làm việc:</label>
+                <input input type="text"/>
+            </div>
+            <div>
+                <label>Có thẻ bảo hiểm y tế:</label>
+                <select>
+                    <option>Có</option>
+                    <option>Không</option>
+                </select>
+            </div>
+            <h3>
+                Địa chỉ liên lạc tại Việt Nam
+            </h3>
+            <div>
+                <label>Tỉnh thành:</label>
+                <input input type="text"/>
+            </div>
+            <div>
+                <label>Quận/huyện:</label>
+                <input input type="text"/>
+            </div>
+            <div>
+                <label>Phường/xã:</label>
+                <input input type="text"/>
+            </div>
+            <div>
+                <label>Số nhà, phố, tổ dân phố, thôn/đội:</label>
+                <input input type="text"/>
+            </div>
+            <div>
+                <label>Số điện thoại:</label>
+                <input input type="number"/>
+            </div>
+            <div>
+                <label>Trong vòng 14 ngày qua, Anh/Chị có đến quốc gia/vùng lãnh thổ nào (Có thể đi qua nhiều quốc gia):</label>
+                <input input type="text"/>
+            </div>
+            <h4>
+            Trong vòng 14 ngày qua, Anh/Chị có thấy xuất hiện dấu hiệu nào sau đây không?
+            </h4>
+            <div>
+                <table border="1">
+                    <tr>
+                        <th><strong>Triệu chứng</strong></th>
+                        <th><strong>Có</strong></th>
+                        <th><strong>Không</strong></th>
+                    </tr>
+                    <tr>
+                        <td>Sốt</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                    <tr>
+                        <td>Ho</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                    <tr>
+                        <td>Khó thở</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                    <tr>
+                        <td>Viêm phổi</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                    <tr>
+                        <td>Đau họng</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                    <tr>
+                        <td>Mệt mỏi</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                </table>
+            </div>
+            <h5>Trong vòng 14 ngày qua, Anh/Chị có tiếp xúc với:</h5>
+            <div>
+                <table border="1"/>
+                    <tr>
+                        <th></th>
+                        <th>Có </th>
+                        <th>Không</th>
+                    </tr>
+                    <tr>
+                        <td>Người bệnh hoặc nghi ngờ, mắc bệnh COVID-19 </td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                    <tr>
+                        <td>Người từ nước có bệnh COVID-19 </td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                    <tr>
+                        <td>Người có biểu hiện (Sốt, ho, khó thở, Viêm phổi)</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                </table>
+            </div>
+            <h6>Hiện tại Anh/Chị có các bệnh nào dưới đây:</h6>
+            <div>
+                <table border="1">
+                    <tr>
+                        <th>Tên bệnh</th>
+                        <th>Có</th>
+                        <th>Không</th>
+                    </tr>
+                    <tr>
+                        <td>Bệnh gan mãn tính</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Bệnh máu mãn tính</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Bệnh phổi mãn tính</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Bệnh thận mãn tính</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Bệnh tim mạch</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Huyết áp cao</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Suy giảm miễn dịch</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Người nhận ghép tạng, tủy, xương</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Tiểu đường</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                     <tr>
+                        <td>Ung thư</td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                </table>
+            </div>
+            <h7>Hỏi thêm</h7>
+            <div>
+                <table border="1">
+                    <tr>
+                        <th></th>
+                        <th>Có</th>
+                        <th>Không</th>
+                    </tr>
+                    <tr>
+                        <td>Bạn có đang trong thời gian thai kỳ hay không? </td>
+                        <td><input input type="radio"/></td>
+                        <td><input input type="radio"/></td>
+                    </tr>
+                </table>
+            </div>
+            <span>
+                <p class="kiu">TP.Hồ Chí Minh, ngày
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                tháng
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                năm
+                <input input type="number"/>
+            </span>
+            <div>
+                <p class="kiu">Ký và ghi rõ họ tên</p>
+            </div>
+        </form>
+    </body>
+</html>
